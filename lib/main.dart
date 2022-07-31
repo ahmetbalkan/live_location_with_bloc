@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
                 LivelocationBloc()..add(LoadLocationEvent()))
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Live Location With Bloc',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
